@@ -1,0 +1,49 @@
+.weather{
+border-radius: 3px;
+color:rgba(44, 42, 39, 0.701);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 10px;
+font-weight: bold;
+background-color: rgb(140, 223, 223);
+border-color: rgb(140, 223, 223);
+
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: aquamarine;
+}
+#square{
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    color:wheat;
+    border: 1px solid black
+}
+.paragraph{
+    font-family: Arial;
+    font-style: italic;
+    color:red;
+    
+}
+.newclass{
+    background-color:yellow;
+
+}
+#mode{
+    background-color: black;
+    color: white;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+    border-radius: 10px;
+}
+#mode:hover{
+    cursor: pointer;
+    transition: 0.5s;
+}

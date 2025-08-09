@@ -1,0 +1,10 @@
+
+.btn{
+    border-radius: 5px;
+    color: blueviolet;
+    background-color: hsl(287, 48%, 69%);
+    border: none;
+    border-color: aliceblue;
+    padding: 10px 20px;
+    cursor: pointer;
+  }

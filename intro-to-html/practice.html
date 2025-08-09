@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    <style>
+        p{
+            padding: 0;
+            margin:0;
+        }
+      .pfp{
+        display: inline-block;
+        box-shadow: 0 0 5px rgba(0,0,0,0.3);
+         width:200px;
+        vertical-align: top;
+        margin-bottom: 15px;
+      }
+      .pic{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 5px;
+        border-radius:100px ;
+      }
+      .des{
+        font-family: sans-serif;
+        font-weight:100;
+        font-size: medium;
+        opacity: 0.5;
+        margin: 8px;
+      }
+      .user-name{
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: medium;
+        margin: 8px;
+        margin-bottom: 10px;
+      }
+      
+      .follow{
+        background-color: rgb(19, 146, 244);
+        color: white;
+        border-radius: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom:5px;
+        border-color:rgb(19, 146, 244);
+        box-shadow: none;
+        font-size: 15px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+
+      }
+     .follow:hover{
+        cursor: pointer;
+        opacity: 0.6;
+        transition: 0.5s;
+     }
+    .horiz-img{
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-right: 20px;
+
+    }
+    .horizontal-div{
+        display:flex;
+         align-items: center;
+         box-shadow: 0 0 5px rgba(128, 23, 23, 0.486);
+        }
+
+  
+    .follow-mini{
+        background-color: rgb(19, 146, 244);
+        color: white;
+        border-radius: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom:5px;
+        border-color:rgb(19, 146, 244);
+        box-shadow: none;
+        font-size: 10px;
+        margin-left:auto;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        
+    }
+    .cat-name{
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .bio{
+        opacity: 0.6;
+        }
+    </style>
+    <div class="pfp">
+        <div>
+        <img class="pic" src="thumbnails/cat.jpg">
+        <p class="user-name">Oliver</p>
+    <div class="description">
+        <p class="des"> the Cat <br>Popular</p>  
+    </div>    
+    <button class="follow">Follow</button>
+
+    </div>
+    </div>
+
+<div class="horizontal-div">
+    <div>
+        <img class="horiz-img" src="thumbnails/cat.jpg">
+    <p class="cat-name">Mimi</p>
+    <div class="Bio">
+    <p class="bio">The Cutie</p>
+</div>
+ 
+</div>
+<button class="follow-mini">Follow</button>
+  
+    
+
+</div>
+    
+
+
+    
+</body>
+</html>

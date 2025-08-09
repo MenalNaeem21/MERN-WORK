@@ -1,0 +1,16 @@
+{
+  "name": "vscode_html",
+  "version": "1.0.0",
+  "main": "events.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.1.0"
+  }
+}

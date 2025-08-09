@@ -1,0 +1,62 @@
+
+    p{
+        font-family:Roboto;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+
+    .gpt {
+     
+        font-size:20px;
+        font-weight:bold;
+        width:500px;
+        text-align:left;
+        line-height:25px;
+        margin-bottom:5px;
+    
+
+    }
+    .stats {
+         
+        font-size: 14px;
+        color: rgb(129, 122, 122);
+        margin-top: 0;
+        margin-bottom:20px;
+    }
+
+    .third-line{
+       
+        font-size:14px;
+        color:rgb(137, 131, 131);
+        margin-top:10px;
+        margin-bottom:0;
+
+    }
+    .four-para {
+        font-size: 14px;
+        color: rgb(137, 131, 131);
+        margin-top:10px;
+        width:500px;
+        line-height:20px;
+        margin-bottom:10px;
+        
+    }
+    .shop-now{
+        background-color:orangered;
+        font-size:15px;
+        color:white;
+        text-align:center;
+        padding-top:18px;
+        padding-bottom:18px;
+ 
+    }
+    .shop {
+        margin-left: 12px;
+    }
+    .shop:hover{
+        cursor:pointer;
+        opacity:0.5;
+        text-decoration:underline;
+    }
+   
+
