@@ -53,20 +53,20 @@ function calculator(a,b,sumCallback){
 // })
 // }
 // create usually we dont//
-// function getDataN(id,getNextData){
-//     return new Promise((resolve,reject)=>{
-//           setTimeout(()=>{
-//     console.log("data",id)
-//  //   resolve("success")
-//     if(getNextData)
-//    {
-//      getNextData()
-//    }
-// },2000)
+function getDataN(id,getNextData){
+    return new Promise((resolve,reject)=>{
+          setTimeout(()=>{
+    console.log("data",id)
+     //   resolve("success")
+    if(getNextData)
+   {
+     getNextData() 
+   }
+},5000)
 
-//     })
+    })
   
-// } 
+} 
 // let result=getDataN(2345)
 //how to use promise//
  //if fullfilled
